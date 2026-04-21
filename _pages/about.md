@@ -23,4 +23,4 @@ Selected Papers
 ======
 {% include pub-cards-selected.html %}
 
-<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=000000&w=150&t=tt&d=Tffy5WKOw1EPinLAzyvLtbQTtzZHnLvcab12kwYTdME&co=ffffff'></script>
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=080808&w=150&t=tt&d=Tffy5WKOw1EPinLAzyvLtbQTtzZHnLvcab12kwYTdME&ct=808080&co=ffffff&cmo=3acc3a&cmn=ff5353'></script>
