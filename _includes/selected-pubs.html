@@ -1,0 +1,49 @@
+<div class="selected-publications">
+  {% assign pubs = site.publications | sort: "date" | reverse %}
+  {% for post in pubs %}
+    {% if post.selected %}
+      <div class="pub-card">
+        <div class="pub-left">
+          {% if post.status %}
+            <div class="pub-badge">{{ post.status }}</div>
+          {% endif %}
+
+          {% if post.teaser %}
+            <div class="pub-thumb">
+              <img src="{{ post.teaser | relative_url }}" alt="{{ post.title }}">
+            </div>
+          {% endif %}
+        </div>
+
+        <div class="pub-right">
+          <h3 class="pub-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+
+          {% if post.authors %}
+            <div class="pub-authors">{{ post.authors }}</div>
+          {% endif %}
+
+          {% if post.venue %}
+            <div class="pub-venue"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</div>
+          {% endif %}
+
+          <div class="pub-links">
+            {% if post.paperurl %}
+              <a class="pub-btn" href="{{ post.paperurl | relative_url }}" target="_blank" rel="noopener">PDF</a>
+            {% endif %}
+            {% if post.videourl %}
+              <a class="pub-btn" href="{{ post.videourl }}" target="_blank" rel="noopener">VIDEO</a>
+            {% endif %}
+            {% if post.codeurl %}
+              <a class="pub-btn" href="{{ post.codeurl }}" target="_blank" rel="noopener">CODE</a>
+            {% endif %}
+            {% if post.posterurl %}
+              <a class="pub-btn" href="{{ post.posterurl | relative_url }}" target="_blank" rel="noopener">POSTER</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
