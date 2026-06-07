@@ -13,6 +13,7 @@ My current research interests lie primarily in **Optimal Transport, Generative M
 
 News
 ======
+- May, 2026: Our latest paper, *Sparsification Subsampling for Partial Least Squares Regression*, was accepted by **JCGS**.✨
 - Apr, 2026: I was invited to present a poster at [FAIC 2026](https://faic.cc/poster.html) in Shanghai!🖼️
 - Apr, 2026: I was invited to give a talk at the Mao Shisong Statistical Education Doctoral Forum in Chengdu ([Link](https://mp.weixin.qq.com/s/w0PHHcH5y8f9DMjsoJH68g))!🎤
 - Jan, 2026: Our new paper, [*An Efficient SE(p)-Invariant Transport Metric Driven by Polar Transport Discrepancy-based Representation*](https://openreview.net/forum?id=oyxExc7TEl), was accepted to **ICLR 2026**.🎉🎉🎉
