@@ -30,7 +30,7 @@
 
           <div class="pub-links">
             {% if post.paperurl %}
-              <a class="pub-btn" href="{{ post.paperurl | relative_url }}" target="_blank" rel="noopener">PDF</a>
+              <a class="pub-btn" href="{{ post.paperurl | relative_url }}" target="_blank" rel="noopener">{{ post.paperlabel | default: "PDF" }}</a>
             {% endif %}
             {% if post.videourl %}
               <a class="pub-btn" href="{{ post.videourl }}" target="_blank" rel="noopener">VIDEO</a>
