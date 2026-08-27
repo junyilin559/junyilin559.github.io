@@ -17,7 +17,11 @@
 
         <div class="pub-right">
           <h3 class="pub-title">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            {% if post.titleurl %}
+              <a href="{{ post.titleurl }}" target="_blank" rel="noopener">{{ post.title }}</a>
+            {% else %}
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            {% endif %}
           </h3>
 
           {% if post.authors %}

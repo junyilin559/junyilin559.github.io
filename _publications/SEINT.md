@@ -7,6 +7,7 @@ authors: "<strong>Junyi Lin</strong>, Dunyao Xue, Jun Yu, Hongteng Xu, Cheng Men
 selected: true
 status: "ICLR"
 teaser: "/images/pubs/SEINT.png"
+titleurl: "https://openreview.net/forum?id=oyxExc7TEl"
 paperurl: "https://openreview.net/pdf?id=oyxExc7TEl"
 codeurl: "https://github.com/junyilin559/SEINT"
 # wechaturl: "https://github.com/junyilin559/SEINT"
