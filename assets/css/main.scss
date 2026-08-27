@@ -41,6 +41,33 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+:root {
+  --pub-badge-bg: #111;
+  --pub-badge-text: #fff;
+  --pub-thumb-bg: #fff;
+  --pub-thumb-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+  --pub-authors-color: #444;
+  --pub-venue-color: #555;
+  --pub-btn-bg: #fff;
+  --pub-btn-bg-hover: #f5f5f5;
+  --pub-btn-border: #222;
+  --pub-btn-text: #111;
+}
+
+html[data-theme="dark"] {
+  --pub-badge-bg: #202020;
+  --pub-badge-text: #f7f7f7;
+  --pub-thumb-bg: #353535;
+  --pub-thumb-shadow: 0 2px 10px rgba(0, 0, 0, 0.32);
+  --pub-authors-color: #e2e2e2;
+  --pub-venue-color: #cecece;
+  --pub-btn-bg: #383838;
+  --pub-btn-bg-hover: #505050;
+  --pub-btn-border: #c9c9c9;
+  --pub-btn-text: #f7f7f7;
+}
+
 .pub-card {
   display: flex;
   gap: 0.85rem;
@@ -57,8 +84,8 @@
   display: inline-block;
   width: 100%;
   text-align: center;
-  background: #111;
-  color: #fff;
+  background: var(--pub-badge-bg);
+  color: var(--pub-badge-text);
   font-weight: 700;
   font-size: 0.72rem;
   border-radius: 7px;
@@ -68,10 +95,10 @@
 }
 
 .pub-thumb {
-  background: #fff;
+  background: var(--pub-thumb-bg);
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--pub-thumb-shadow);
 }
 
 .pub-thumb img {
@@ -106,14 +133,14 @@
 .pub-authors {
   font-size: 0.86rem;
   line-height: 1.45;
-  color: #444;
+  color: var(--pub-authors-color);
   margin-bottom: 0.12rem;
 }
 
 .pub-venue {
   font-size: 0.84rem;
   line-height: 1.4;
-  color: #555;
+  color: var(--pub-venue-color);
   margin-bottom: 0.3rem;
 }
 
@@ -127,22 +154,27 @@
 .pub-btn {
   display: inline-block;
   padding: 0.12rem 0.42rem;
-  border: 1px solid #222;
+  border: 1px solid var(--pub-btn-border);
   border-radius: 4px;
   text-decoration: none !important;
   font-size: 0.68rem;
   font-weight: 500;
-  color: #111;
-  background: #fff;
+  color: var(--pub-btn-text);
+  background: var(--pub-btn-bg);
   line-height: 1.1;
 }
 
-.pub-btn:hover,
-.pub-btn:focus,
 .pub-btn:visited {
   text-decoration: none !important;
-  background: #f5f5f5;
-  color: #111;
+  background: var(--pub-btn-bg);
+  color: var(--pub-btn-text);
+}
+
+.pub-btn:hover,
+.pub-btn:focus-visible {
+  text-decoration: none !important;
+  background: var(--pub-btn-bg-hover);
+  color: var(--pub-btn-text);
 }
 
 .pub-page-wrap {
