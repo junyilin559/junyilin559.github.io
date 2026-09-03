@@ -9,7 +9,7 @@ redirect_from:
 
 Welcome to my homepage! I am Junyilin Lin, currently a second-year Ph.D. student at the Institute of Statistics and Big Data, Renmin University of China, under the supervision of Dr. [Cheng Meng](https://cheng-bdal.github.io/) and Dr. [Kejun He](http://isbd.ruc.edu.cn/sztd/c649d51f7a9d4557b25db81b705037e1.htm). Prior to this, I received my B.S. degree from the School of Statistics and Data Science, Nankai University, where I was supervised by Prof. [Yongdao Zhou](https://my.nankai.edu.cn/stat/zyd/list.htm).
 
-My current research interests lie primarily in **Optimal Transport, Generative Models, Data Efficiency and Multimodal alignment**. I am currently looking for internship opportunities. Please feel free to contact me at [junyilin@ruc.edu.cn](mailto:junyilin@ruc.edu.cn) if you are interested in any of my research topics!
+My current research interests lie primarily in **Optimal Transport, Generative Models, Data Efficiency and Multimodal alignment**. <span class="internship-notice">I am currently looking for internship opportunities. Please feel free to contact me at <a href="mailto:junyilin@ruc.edu.cn">junyilin@ruc.edu.cn</a> if you are interested in any of my research topics!</span>
 
 News
 ======
